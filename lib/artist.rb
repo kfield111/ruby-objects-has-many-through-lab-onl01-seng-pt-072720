@@ -21,7 +21,9 @@ class Artist
   end
 
   def genres
-
+    new_song.map do |temp|
+      temp.genre
+    end
   end
 
 
