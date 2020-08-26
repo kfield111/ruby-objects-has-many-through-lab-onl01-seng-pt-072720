@@ -21,7 +21,7 @@ class Artist
   end
 
   def genres
-    new_song.collect {|temp| temp.genre}
+    songs.collect {|temp| temp.genre}
   end
 
 
