@@ -27,6 +27,4 @@ class Artist
   end
 
 
-
-
 end
