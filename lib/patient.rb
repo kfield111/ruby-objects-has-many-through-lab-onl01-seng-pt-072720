@@ -14,6 +14,7 @@ class Patient
 
   def appointments
     Appointment.map {|temp| temp.patient == self}
+  end
 
   def new_appointment(date, doctor)
     Appointment.new(date, self, doctor)
