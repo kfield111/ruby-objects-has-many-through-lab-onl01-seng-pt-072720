@@ -13,6 +13,8 @@ class Artist
   end
 
   def songs
+  Songs.all.select do {|temp| temp.artist = self}
+  end
 
 
 
