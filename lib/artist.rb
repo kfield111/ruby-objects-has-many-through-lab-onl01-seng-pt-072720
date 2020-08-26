@@ -16,6 +16,14 @@ class Artist
   Songs.all.select do {|temp| temp.artist = self}
   end
 
+  def new_song (name)
+    song = Song.new(name, self)
+  end
+
+  def genres
+
+  end
+
 
 
 
