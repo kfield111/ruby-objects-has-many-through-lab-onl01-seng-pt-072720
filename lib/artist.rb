@@ -14,7 +14,7 @@ class Artist
 
   def songs
   Songs.all.select do |temp|
-    temp.artist = self
+    temp.artist == self
     end
   end
 
