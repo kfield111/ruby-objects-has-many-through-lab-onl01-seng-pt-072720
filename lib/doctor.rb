@@ -1,5 +1,5 @@
 class Doctor
-    attr_reader :name
+    attr_accessor :name
 
 @@all = []
 
@@ -19,5 +19,5 @@ class Doctor
     def patients
       appointments.all.collect {|temp| temp.doctor == self}
     end
-    
+
   end
