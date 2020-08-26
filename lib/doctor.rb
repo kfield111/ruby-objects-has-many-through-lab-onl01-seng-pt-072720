@@ -21,7 +21,7 @@ class Doctor
     end
 
     def patients
-      appointments.map {|temp| temp.doctor}
+      appointments.map {|temp| temp.patient}
     end
 
   end
