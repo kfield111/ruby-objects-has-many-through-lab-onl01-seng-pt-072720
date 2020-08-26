@@ -18,9 +18,7 @@ class Genre
   end
 
   def artists
-    songs.map do |temp|
-      temp.artist
-    end
+    songs.collect {|temp| temp.artist}
   end
 
 
