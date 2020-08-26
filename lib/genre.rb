@@ -11,6 +11,10 @@ class Genre
     @@all << self
   end
 
+  def self.all
+    @@all
+  end
+
 
 
 
