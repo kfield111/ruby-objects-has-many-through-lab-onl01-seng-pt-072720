@@ -8,6 +8,12 @@ class Artist
     @@all << self
   end
 
+  def self.all
+    @@all
+  end
+
+  def songs
+
 
 
 
