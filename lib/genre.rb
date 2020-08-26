@@ -22,6 +22,12 @@ class Genre
   end
   end
 
+  def artists
+    songs.map do |temp|
+      temp.artist
+    end
+  end
+
 
 
 
